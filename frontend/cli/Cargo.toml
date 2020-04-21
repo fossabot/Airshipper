@@ -1,0 +1,17 @@
+[package]
+name = "cli"
+# always increment all versions of the frontend
+version = "0.3.2"
+authors = ["Songtronix <contact@songtronix.com>"]
+edition = "2018"
+
+[dependencies]
+client = { path = "../client" }
+# Parsing
+clap = { git = "https://github.com/clap-rs/clap/", rev = "37889c", features = ["derive"] }
+# Other
+tokio = "0.2.13"
+
+# TODO: Once possible remove these deps for the library!
+indicatif = "0.14.0"
+dialoguer = "0.5.0"

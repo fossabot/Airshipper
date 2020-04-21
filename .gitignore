@@ -1,3 +1,4 @@
-/target
-.airshipper-env
+target/
+airshipper.ron
 airshipper.db
+TODO*.*

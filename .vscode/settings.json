@@ -1,0 +1,11 @@
+{
+  "rust-analyzer.updates.channel": "nightly",
+  // Discussable if they should be included
+  "rust-analyzer.checkOnSave.allTargets": true,
+  "rust-analyzer.cargo.allFeatures": true,
+  "rust-analyzer.inlayHints.parameterHints": true,
+  "rust-analyzer.inlayHints.typeHints": true,
+  "rust-analyzer.inlayHints.chainingHints": true,
+  "rust-analyzer.cargo.loadOutDirsFromCheck": true,
+  "rust-analyzer.procMacro.enabled": true
+}

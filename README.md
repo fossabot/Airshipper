@@ -23,7 +23,7 @@ For all download options visit my website: [www.songtronix.com](https://www.song
 ```bash
 git clone https://github.com/Songtronix/Airshipper.git
 cd Airshipper
-cargo run --release
+cd frontend && cargo run --release
 ```
 
 Make sure to have [rustup](https://rustup.rs/) installed to compile rust code.

@@ -1,0 +1,33 @@
+[package]
+name = "gui"
+# always increment all versions of the frontend
+version = "0.3.2"
+authors = ["Songtronix <contact@songtronix.com>"]
+edition = "2018"
+default-run = "gui"
+
+[dependencies]
+client = { path = "../client" }
+# Networking
+reqwest = "0.10.4"
+# UI
+iced = { git = "https://github.com/hecrj/iced.git", rev = "6e9ab1c", features = ["tokio", "image"] } 
+iced_futures = { git = "https://github.com/hecrj/iced.git", rev = "6e9ab1c", features = ["tokio"] }
+iced_native = { git = "https://github.com/hecrj/iced.git", rev = "6e9ab1c" }
+# Logging
+tracing = "0.1.13"
+# Serialising/Deserialising
+serde = { version = "1.0.105", features = ["derive"] }
+ron = "0.5.1"
+# Parsing
+markedit = "0.3.0"
+rss = "1.9.0"
+strip_markdown = "0.2.0"
+html2text = "0.1.11"
+# runtime
+tokio = "0.2.13"
+# Error handling
+thiserror = "1.0.14"
+# other
+bytesize = "1.0.0"
+opener = "0.4.1"

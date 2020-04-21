@@ -10,7 +10,7 @@ Example commits:
 
 ### Notes for the server
 
-- If you have docker available you can `cd server && docker build . -t airshipper` and `cd server && docker-compose up` to make the server available. However make sure to checkout [docker-compose.yml](docker-compose.yml) to verify your setup is correct and you've set the env vars.
+- If you have docker available you can `cd backend && docker build . -t airshipper` and `cd backend && docker-compose up` to make the server available. However make sure to checkout [docker-compose.yml](backend/docker-compose.yml) to verify your setup is correct and you've set the env vars.
 
 ### Agreement
 
